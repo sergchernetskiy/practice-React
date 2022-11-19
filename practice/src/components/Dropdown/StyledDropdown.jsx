@@ -19,5 +19,5 @@ export const DropdownMenu = styled.button`
   padding: ${(p) => p.theme.space[3]};
   text-align: center;
   background: ${(p) => p.theme.colors.pink};
-  color: ${(p) => p.theme.colors.white};
+  color: ${(p) => p.theme.colors.muted};
 `;
