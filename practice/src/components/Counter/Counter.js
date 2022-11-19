@@ -20,9 +20,10 @@ class Counter extends React.Component {
   render() {
     return (
       <div className="Counter">
-        <h1>Counter</h1>
+        <h2>Counter</h2>
         <button
           className="Counter__btn"
+          disabled={this.state.value <= 0}
           type="button"
           onClick={this.handleDecrement}
         >
